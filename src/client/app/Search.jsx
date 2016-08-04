@@ -3,7 +3,8 @@ import React     from 'react'
 export default class Search extends React.Component {
   render(){
     return (
-      <div>
+      <div className="text_field">
+
         <form onSubmit={this.props.onSubmitSearch}>
           <div >
             <input
