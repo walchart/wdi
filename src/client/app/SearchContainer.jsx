@@ -10,6 +10,10 @@ export default class SearchContainer extends React.Component {
   constructor(){
     super();
     this.state = {
+      one:"",
+      two:"",
+      three:"",
+      four:"",
       sales:[]
     }
   }
@@ -22,16 +26,36 @@ export default class SearchContainer extends React.Component {
   // }
 
 
-  // handleUpdateSearch(e){
-  //   // console.log(event.target.value)
-  //   this.setState({
-  //     query: e.target.value
-  //   })
-  // }
+  handleOneUpdateSearch(e){
+    // console.log(event.target.value)
+    this.setState({
+      one: e.target.value
+    })
+  }
+  handleTwoUpdateSearch(e){
+    // console.log(event.target.value)
+    this.setState({
+      two: e.target.value
+    })
+  }
+
+  handleThreeUpdateSearch(e){
+    // console.log(event.target.value)
+    this.setState({
+      three: e.target.value
+    })
+  }
+
+  handleFourUpdateSearch(e){
+    // console.log(event.target.value)
+    this.setState({
+      four: e.target.value
+    })
+  }
 
   handleSubmitSearch(e){
   e.preventDefault();
-  ajax.cuisineCall(this.state.query).then( sales =>{
+  ajax.walmartCall(this.state.one, this.state.two, this.state.three, this.state.four).then( sales =>{
       this.setState({
         sales: []
       })
@@ -43,8 +67,13 @@ export default class SearchContainer extends React.Component {
       return (
 
           <div>
-            <Search />
-            <Results />
+            <Search
+            onOneUpdateSearch={this.handleOneUpdateSearch.bind(this)}
+            onTwoUpdateSearch={this.handleTwoUpdateSearch.bind(this)}
+            onThreeUpdateSearch={this.handleThreeUpdateSearch.bind(this)}
+            onFourUpdateSearch={this.handleFourUpdateSearch.bind(this)}
+            onSubmitSearch={this.handleSubmitSearch.bind(this)}
+            sales={this.state.sales} />
           </div>
       )
   }

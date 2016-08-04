@@ -6,7 +6,7 @@ export default class Results extends React.Component {
   render(){
     return (
       <div>
-       <LineChart width="600" height="250"/>
+       <LineChart data={chartData} options={chartOptions} width="600" height="250"/>
             </div>
 
       )
