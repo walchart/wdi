@@ -1,5 +1,5 @@
 {
-  "name": "cookit",
+  "name": "walchart",
   "version": "1.0.0",
   "description": "##Summary",
   "main": "server.js",
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mgershowitz/cookIt.git"
+    "url": "git+https://github.com/mgershowitz/wdi.git"
   },
   "author": "Matt Gershowitz Chandler Basso Michael Werbowsky Arlen Cho",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mgershowitz/cookIt/issues"
+    "url": "https://github.com/mgershowitz/wdi/issues"
   },
-  "homepage": "https://github.com/mgershowitz/cookIt#readme",
+  "homepage": "https://github.com/mgershowitz/wdi#readme",
   "dependencies": {
     "bcrypt": "^0.8.7",
     "body-parser": "^1.15.2",
