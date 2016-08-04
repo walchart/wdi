@@ -1,6 +1,6 @@
 import React              from 'react'
 import ReactDOM           from 'react-dom'
-
+import SearchContainer    from './SearchContainer.jsx'
 export default class App extends React.Component{
 
 
@@ -9,6 +9,7 @@ export default class App extends React.Component{
           <container>
               <div>
               <h1>dobrydenj swiat</h1>
+              <SearchContainer />
               </div>
           </container>
         )
