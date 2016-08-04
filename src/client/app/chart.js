@@ -1,7 +1,10 @@
-// var Chart = require('src/chart.js')
-// var myChart = new Chart({})
-let Chart    = require("react-chartjs").Line;
-var data = {
+
+// var myLineChart = new Chart(ctx, {
+//     type: 'line',
+//     data: data,
+//     options: options
+// });
+ exports.data = {
     labels: ["January", "February", "March", "April", "May", "June", "July"],
     datasets: [
         {
@@ -28,6 +31,5 @@ var data = {
         }
     ]
 };
-var walmart = document.getElementById('walmart')
-exports.chart = new Chart(walmart).Line(data)
+
 
