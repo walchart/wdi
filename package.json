@@ -1,5 +1,5 @@
 {
-  "name": "cookit",
+  "name": "walchart",
   "version": "1.0.0",
   "description": "##Summary",
   "main": "server.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mgershowitz/cookIt.git"
+    "url": "git+https://github.com/chandlerbasso/walchart.git"
   },
   "author": "Matt Gershowitz Chandler Basso Michael Werbowsky Arlen Cho",
   "license": "MIT",
