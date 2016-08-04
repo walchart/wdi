@@ -12,7 +12,7 @@ export default class Results extends React.Component {
   render(){
     return (
       <div>
-       <LineChart id="walmart" data={chart.chart} width="600" height="250"/>
+       <LineChart id="walmart" data={chart.data} width="600" height="250"/>
             </div>
 
       )
