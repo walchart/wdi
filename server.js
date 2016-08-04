@@ -21,7 +21,7 @@ app.use(express.static(path.join(__dirname,'dist')))
 app.use(bodyParser.json());
 
 
-// app.use('/recipes', recipeRoute)
+// app.use('/', recipeRoute)
 
 //app.use('/spoon', spoon)
 
