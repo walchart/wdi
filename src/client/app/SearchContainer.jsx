@@ -74,6 +74,7 @@ export default class SearchContainer extends React.Component {
             onFourUpdateSearch={this.handleFourUpdateSearch.bind(this)}
             onSubmitSearch={this.handleSubmitSearch.bind(this)}
             sales={this.state.sales} />
+            <Results/>
           </div>
       )
   }
