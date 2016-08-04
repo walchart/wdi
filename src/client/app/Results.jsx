@@ -1,6 +1,6 @@
 import React     from 'react'
-import ajax      from '../helpers/ajaxAdapter.js'
-const {Line}    = require("react-chartjs");
+
+// import ajax      from '../helpers/ajaxAdapter.js'
 import chart     from './chart.js'
 
 // var MyChart = React.createClass({

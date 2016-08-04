@@ -11,6 +11,7 @@ const bodyParser  = require('body-parser')
 const app         = express()
 const dataRoute   = require('/routes/data')
 const port        = process.argv[2] || process.env.PORT || 3000
+const test        = require('./test/index.html')
 
 app.set('superSecret', 'my super secret word')
 
@@ -20,6 +21,7 @@ app.use(morgan( DEV ? 'dev' : 'common'))
 app.use(express.static(path.join(__dirname,'dist')))
 
 app.use(bodyParser.json());
+
 
 
 app.use('/', dataRoute)
