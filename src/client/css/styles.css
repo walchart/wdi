@@ -7,6 +7,15 @@
 }
 
 .logo {
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: auto;
+  margin-top: -60px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.header {
+  margin-bottom: -60px;
 }

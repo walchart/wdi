@@ -11,7 +11,7 @@ export default class App extends React.Component{
           <container>
               <div>
                 <Header />
-                <h1>dobrydenj swiat</h1>
+                <h1>Search Chart Results</h1>
                 <SearchContainer />
               </div>
           </container>
