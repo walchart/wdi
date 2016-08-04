@@ -9,6 +9,15 @@ export default class Search extends React.Component {
             <input
             onChange={this.props.onUpdateSearch}
             type='text' />
+            <input
+            onChange={this.props.onUpdateSearch}
+            type='text' />
+            <input
+            onChange={this.props.onUpdateSearch}
+            type='text' />
+            <input
+            onChange={this.props.onUpdateSearch}
+            type='text' />
           <button type='submit'>
               Search
             </button>
