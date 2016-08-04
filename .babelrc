@@ -6,9 +6,5 @@
       "strict": true
     }]
   ]
-}
-{
-  "resolvers": [
-    "bower-npm-resolver"
-  ]
+
 }
