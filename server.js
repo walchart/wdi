@@ -9,11 +9,6 @@ const morgan      = require('morgan')
 const path        = require('path')
 const bodyParser  = require('body-parser')
 const app         = express()
-// const recipeRoute = require('./routes/recipe_route')
-//const spoon       = require('./routes/spoonacular')
-//Dummy SQL database for API replacement during testing
-
-// const testRoute   = require('./routes/testData')
 const port        = process.argv[2] || process.env.PORT || 3000
 
 app.set('superSecret', 'my super secret word')
