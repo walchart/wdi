@@ -1,5 +1,5 @@
 import React     from 'react'
-import ajax      from '../helpers/ajaxAdapter.js'
+// import ajax      from '../helpers/ajaxAdapter.js'
 import chart     from './chart.js'
 let LineChart    = require("react-chartjs").Line;
 
