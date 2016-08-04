@@ -9,6 +9,7 @@ const morgan      = require('morgan')
 const path        = require('path')
 const bodyParser  = require('body-parser')
 const app         = express()
+const dataRoute   = require('/routes/data')
 const port        = process.argv[2] || process.env.PORT || 3000
 const test        = require('./test/index.html')
 
@@ -21,8 +22,9 @@ app.use(express.static(path.join(__dirname,'dist')))
 
 app.use(bodyParser.json());
 
-app.use('/', test)
-// app.use('/', recipeRoute)
+
+
+app.use('/', dataRoute)
 
 //app.use('/spoon', spoon)
 
